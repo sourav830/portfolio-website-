@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.user{
+    margin: auto;
+    max-width: 260px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+    font-family: Arial;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5); 
+    background-color: rgb(215, 228, 224);
+}
+img{
+    height: 250px;
+    width: 250px;
+}
+h2{
+    text-align: center;
+}
+button{
+    width: 100%;
+    font-size: 2rem;
+    color: $background;
+    border: none;
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.5);
+    background-size: 300% 300%;
+    outline: none;
+    transition: all 200ms ease-in-out;
+    background-color: gray;
+}
+a{
+    font-size: 25px;
+    color: rgb(49, 178, 229);
+}
+button:hover, a:hover{
+    opacity: 0.8;
+}
